@@ -352,6 +352,8 @@ Takes an object with the following properties:
 
 `permissions`: The permissions number for the bot invite (only with bot scope) (https://discord.com/developers/docs/topics/permissions).
 
+`integrationType`: The installation context for the authorization, either 0 for guild or 1 for user install (only with applications.commands scope) (https://discord.com/developers/docs/resources/application#installation-context).
+
 `guildId`: The guild id to pre-fill the bot invite (only with bot scope).
 
 `disableGuildSelect`: Disallows the user from changing the guild for the bot invite, either true or false (only with bot scope).
